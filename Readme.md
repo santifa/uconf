@@ -68,23 +68,15 @@ All available commands (`<cmd>`) and additional arguments are:
 * `help`: Prints a help message similar to this one
 * `create <cfg> <files>`: Add a new configuration
   + `<files>`: A list of files which belong to the new configuration
-
 * `add <cfg> <files>`: Add a new configuration
   + `<files>`: A list of files which belong to the new configuration
-
 * `rm <cfg> <files>`: Add a new configuration
-  + `<files>`: A list of files which belong to the new configuration
-  
-* `save <cfg>`: Stores a local configuration into the cfg home
-  
+  + `<files>`: A list of files which belong to the new configuration 
+* `save <cfg>`: Stores a local configuration into the cfg home 
 * `load <cfg>`: Loads a configuration from the cfg home into the desposited local folder
-  
 * `status <cfg>`: Show the `.cfg` file for a particular configuration
-
 * `doc <cfg>`: Change the documentation file for a configuration
-
 * `show`: List all configurations and file properties
-
 * `vcs`: Main command for version control
     + `add <cfg>`: Add a configuration for later commit.
     + `commit <msg>`: Commit configurations with a Message.
